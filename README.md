@@ -15,6 +15,9 @@ Regarding the styles, I wouldn't had included all the styles in JS, but in css f
 ## Install and run the application
 
 $ git checkout https://github.com/fabiotisci/excellian.git
+
 $ cd excellian
+
 $ npm install && npm test
+
 $ npm start
