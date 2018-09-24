@@ -1,0 +1,1119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BuySell> When is buying Should render the expected template 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <Unknown
+    currency={
+      Object {
+        "base": "USD",
+        "rates": Object {
+          "CHF": "1.1",
+          "EUR": "1.3",
+          "GBP": "1.2",
+        },
+      }
+    }
+    handleClick={[MockFunction]}
+    selectedAction="buy"
+    selectedCurrency="EUR"
+    type="buy"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "currency": Object {
+        "base": "USD",
+        "rates": Object {
+          "CHF": "1.1",
+          "EUR": "1.3",
+          "GBP": "1.2",
+        },
+      },
+      "handleClick": [MockFunction],
+      "selectedAction": "buy",
+      "selectedCurrency": "EUR",
+      "type": "buy",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <a
+        style="color: rgb(255, 255, 255); margin: 5px; padding: 5px; width: 45%; font-weight: bold; background-color: rgb(18, 96, 122); float: right; opacity: 1;"
+      >
+        <div>
+          <div
+            style="float: left; width: 50%; text-align: left;"
+          >
+            1.3
+          </div>
+          <div
+            style="float: right; width: 50%; text-align: right;"
+          >
+            Buy 
+            EUR
+          </div>
+          <div
+            style="clear: both;"
+          />
+        </div>
+        <div
+          style="font-size: 80px;"
+        >
+          0.70
+        </div>
+      </a>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+              style={
+                Object {
+                  "float": "left",
+                  "textAlign": "left",
+                  "width": "50%",
+                }
+              }
+            >
+              1.3
+            </div>
+            <div
+              style={
+                Object {
+                  "float": "right",
+                  "textAlign": "right",
+                  "width": "50%",
+                }
+              }
+            >
+              Buy 
+              EUR
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
+          </div>,
+          <div
+            style={
+              Object {
+                "fontSize": "80px",
+              }
+            }
+          >
+            0.70
+          </div>,
+        ],
+        "onClick": [Function],
+        "style": Object {
+          "backgroundColor": "#12607a",
+          "color": "#FFF",
+          "float": "right",
+          "fontWeight": "bold",
+          "margin": "5px",
+          "opacity": 1,
+          "padding": "5px",
+          "width": "45%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div>
+            <div
+              style="float: left; width: 50%; text-align: left;"
+            >
+              1.3
+            </div>
+            <div
+              style="float: right; width: 50%; text-align: right;"
+            >
+              Buy 
+              EUR
+            </div>
+            <div
+              style="clear: both;"
+            />
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  }
+                }
+              >
+                1.3
+              </div>,
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  }
+                }
+              >
+                Buy 
+                EUR
+              </div>,
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                  }
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <div
+                style="float: left; width: 50%; text-align: left;"
+              >
+                1.3
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1.3",
+                "style": Object {
+                  "float": "left",
+                  "textAlign": "left",
+                  "width": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "1.3",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                style="float: right; width: 50%; text-align: right;"
+              >
+                Buy 
+                EUR
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Buy ",
+                  "EUR",
+                ],
+                "style": Object {
+                  "float": "right",
+                  "textAlign": "right",
+                  "width": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "Buy ",
+                "EUR",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                style="clear: both;"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "style": Object {
+                  "clear": "both",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            style="font-size: 80px;"
+          >
+            0.70
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "0.70",
+            "style": Object {
+              "fontSize": "80px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "0.70",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "a",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "currency": Object {
+          "base": "USD",
+          "rates": Object {
+            "CHF": "1.1",
+            "EUR": "1.3",
+            "GBP": "1.2",
+          },
+        },
+        "handleClick": [MockFunction],
+        "selectedAction": "buy",
+        "selectedCurrency": "EUR",
+        "type": "buy",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <a
+          style="color: rgb(255, 255, 255); margin: 5px; padding: 5px; width: 45%; font-weight: bold; background-color: rgb(18, 96, 122); float: right; opacity: 1;"
+        >
+          <div>
+            <div
+              style="float: left; width: 50%; text-align: left;"
+            >
+              1.3
+            </div>
+            <div
+              style="float: right; width: 50%; text-align: right;"
+            >
+              Buy 
+              EUR
+            </div>
+            <div
+              style="clear: both;"
+            />
+          </div>
+          <div
+            style="font-size: 80px;"
+          >
+            0.70
+          </div>
+        </a>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <div
+                style={
+                  Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  }
+                }
+              >
+                1.3
+              </div>
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  }
+                }
+              >
+                Buy 
+                EUR
+              </div>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                  }
+                }
+              />
+            </div>,
+            <div
+              style={
+                Object {
+                  "fontSize": "80px",
+                }
+              }
+            >
+              0.70
+            </div>,
+          ],
+          "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#12607a",
+            "color": "#FFF",
+            "float": "right",
+            "fontWeight": "bold",
+            "margin": "5px",
+            "opacity": 1,
+            "padding": "5px",
+            "width": "45%",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div>
+              <div
+                style="float: left; width: 50%; text-align: left;"
+              >
+                1.3
+              </div>
+              <div
+                style="float: right; width: 50%; text-align: right;"
+              >
+                Buy 
+                EUR
+              </div>
+              <div
+                style="clear: both;"
+              />
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  style={
+                    Object {
+                      "float": "left",
+                      "textAlign": "left",
+                      "width": "50%",
+                    }
+                  }
+                >
+                  1.3
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "float": "right",
+                      "textAlign": "right",
+                      "width": "50%",
+                    }
+                  }
+                >
+                  Buy 
+                  EUR
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "clear": "both",
+                    }
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <div
+                  style="float: left; width: 50%; text-align: left;"
+                >
+                  1.3
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "1.3",
+                  "style": Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  "1.3",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <div
+                  style="float: right; width: 50%; text-align: right;"
+                >
+                  Buy 
+                  EUR
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Buy ",
+                    "EUR",
+                  ],
+                  "style": Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Buy ",
+                  "EUR",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <div
+                  style="clear: both;"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "style": Object {
+                    "clear": "both",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              style="font-size: 80px;"
+            >
+              0.70
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "0.70",
+              "style": Object {
+                "fontSize": "80px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "0.70",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "a",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<BuySell> When is selling Should render the expected template 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <Unknown
+    currency={
+      Object {
+        "base": "USD",
+        "rates": Object {
+          "CHF": "1.1",
+          "EUR": "1.3",
+          "GBP": "1.2",
+        },
+      }
+    }
+    handleClick={[MockFunction]}
+    selectedAction="sell"
+    selectedCurrency="EUR"
+    type="sell"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "currency": Object {
+        "base": "USD",
+        "rates": Object {
+          "CHF": "1.1",
+          "EUR": "1.3",
+          "GBP": "1.2",
+        },
+      },
+      "handleClick": [MockFunction],
+      "selectedAction": "sell",
+      "selectedCurrency": "EUR",
+      "type": "sell",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <a
+        style="color: rgb(255, 255, 255); margin: 5px; padding: 5px; width: 45%; font-weight: bold; background-color: rgb(165, 27, 12); float: left; opacity: 1;"
+      >
+        <div>
+          <div
+            style="float: left; width: 50%; text-align: left;"
+          >
+            Sell 
+            EUR
+          </div>
+          <div
+            style="float: right; width: 50%; text-align: right;"
+          >
+            1.3
+          </div>
+          <div
+            style="clear: both;"
+          />
+        </div>
+        <div
+          style="font-size: 80px;"
+        >
+          0.85
+        </div>
+      </a>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div
+              style={
+                Object {
+                  "float": "left",
+                  "textAlign": "left",
+                  "width": "50%",
+                }
+              }
+            >
+              Sell 
+              EUR
+            </div>
+            <div
+              style={
+                Object {
+                  "float": "right",
+                  "textAlign": "right",
+                  "width": "50%",
+                }
+              }
+            >
+              1.3
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
+          </div>,
+          <div
+            style={
+              Object {
+                "fontSize": "80px",
+              }
+            }
+          >
+            0.85
+          </div>,
+        ],
+        "onClick": [Function],
+        "style": Object {
+          "backgroundColor": "#a51b0c",
+          "color": "#FFF",
+          "float": "left",
+          "fontWeight": "bold",
+          "margin": "5px",
+          "opacity": 1,
+          "padding": "5px",
+          "width": "45%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div>
+            <div
+              style="float: left; width: 50%; text-align: left;"
+            >
+              Sell 
+              EUR
+            </div>
+            <div
+              style="float: right; width: 50%; text-align: right;"
+            >
+              1.3
+            </div>
+            <div
+              style="clear: both;"
+            />
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  }
+                }
+              >
+                Sell 
+                EUR
+              </div>,
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  }
+                }
+              >
+                1.3
+              </div>,
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                  }
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <div
+                style="float: left; width: 50%; text-align: left;"
+              >
+                Sell 
+                EUR
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Sell ",
+                  "EUR",
+                ],
+                "style": Object {
+                  "float": "left",
+                  "textAlign": "left",
+                  "width": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sell ",
+                "EUR",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                style="float: right; width: 50%; text-align: right;"
+              >
+                1.3
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1.3",
+                "style": Object {
+                  "float": "right",
+                  "textAlign": "right",
+                  "width": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "1.3",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                style="clear: both;"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "style": Object {
+                  "clear": "both",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            style="font-size: 80px;"
+          >
+            0.85
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "0.85",
+            "style": Object {
+              "fontSize": "80px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "0.85",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "a",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "currency": Object {
+          "base": "USD",
+          "rates": Object {
+            "CHF": "1.1",
+            "EUR": "1.3",
+            "GBP": "1.2",
+          },
+        },
+        "handleClick": [MockFunction],
+        "selectedAction": "sell",
+        "selectedCurrency": "EUR",
+        "type": "sell",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <a
+          style="color: rgb(255, 255, 255); margin: 5px; padding: 5px; width: 45%; font-weight: bold; background-color: rgb(165, 27, 12); float: left; opacity: 1;"
+        >
+          <div>
+            <div
+              style="float: left; width: 50%; text-align: left;"
+            >
+              Sell 
+              EUR
+            </div>
+            <div
+              style="float: right; width: 50%; text-align: right;"
+            >
+              1.3
+            </div>
+            <div
+              style="clear: both;"
+            />
+          </div>
+          <div
+            style="font-size: 80px;"
+          >
+            0.85
+          </div>
+        </a>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <div
+                style={
+                  Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  }
+                }
+              >
+                Sell 
+                EUR
+              </div>
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  }
+                }
+              >
+                1.3
+              </div>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                  }
+                }
+              />
+            </div>,
+            <div
+              style={
+                Object {
+                  "fontSize": "80px",
+                }
+              }
+            >
+              0.85
+            </div>,
+          ],
+          "onClick": [Function],
+          "style": Object {
+            "backgroundColor": "#a51b0c",
+            "color": "#FFF",
+            "float": "left",
+            "fontWeight": "bold",
+            "margin": "5px",
+            "opacity": 1,
+            "padding": "5px",
+            "width": "45%",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div>
+              <div
+                style="float: left; width: 50%; text-align: left;"
+              >
+                Sell 
+                EUR
+              </div>
+              <div
+                style="float: right; width: 50%; text-align: right;"
+              >
+                1.3
+              </div>
+              <div
+                style="clear: both;"
+              />
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  style={
+                    Object {
+                      "float": "left",
+                      "textAlign": "left",
+                      "width": "50%",
+                    }
+                  }
+                >
+                  Sell 
+                  EUR
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "float": "right",
+                      "textAlign": "right",
+                      "width": "50%",
+                    }
+                  }
+                >
+                  1.3
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "clear": "both",
+                    }
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <div
+                  style="float: left; width: 50%; text-align: left;"
+                >
+                  Sell 
+                  EUR
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Sell ",
+                    "EUR",
+                  ],
+                  "style": Object {
+                    "float": "left",
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Sell ",
+                  "EUR",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <div
+                  style="float: right; width: 50%; text-align: right;"
+                >
+                  1.3
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "1.3",
+                  "style": Object {
+                    "float": "right",
+                    "textAlign": "right",
+                    "width": "50%",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  "1.3",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": <div
+                  style="clear: both;"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "style": Object {
+                    "clear": "both",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              style="font-size: 80px;"
+            >
+              0.85
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "0.85",
+              "style": Object {
+                "fontSize": "80px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "0.85",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "a",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

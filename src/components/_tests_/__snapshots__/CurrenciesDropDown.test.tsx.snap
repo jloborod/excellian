@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrenciesDropDown> Should render the expected template 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <Unknown
+    currencies={
+      Object {
+        "CHF": "1.1",
+        "EUR": "1.3",
+        "GBP": "1.2",
+      }
+    }
+    handleSelect={[MockFunction]}
+    selected="EUR"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "currencies": Object {
+        "CHF": "1.1",
+        "EUR": "1.3",
+        "GBP": "1.2",
+      },
+      "handleSelect": [MockFunction],
+      "selected": "EUR",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        style="line-height: 20px; margin: 10px;"
+      >
+        <label>
+          Select the currency you want to trade: 
+        </label>
+        <select>
+          <option
+            value="CHF"
+          >
+            CHF / USD
+          </option>
+          <option
+            value="GBP"
+          >
+            GBP / USD
+          </option>
+          <option
+            selected=""
+            value="EUR"
+          >
+            EUR / USD
+          </option>
+        </select>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label>
+            Select the currency you want to trade: 
+          </label>,
+          <select
+            defaultValue="EUR"
+            onChange={[Function]}
+          >
+            <option
+              value="CHF"
+            >
+              CHF
+               / USD
+            </option>
+            <option
+              value="GBP"
+            >
+              GBP
+               / USD
+            </option>
+            <option
+              value="EUR"
+            >
+              EUR
+               / USD
+            </option>
+          </select>,
+        ],
+        "style": Object {
+          "lineHeight": "20px",
+          "margin": "10px",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <label>
+            Select the currency you want to trade: 
+          </label>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Select the currency you want to trade: ",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Select the currency you want to trade: ",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": <select>
+            <option
+              value="CHF"
+            >
+              CHF / USD
+            </option>
+            <option
+              value="GBP"
+            >
+              GBP / USD
+            </option>
+            <option
+              selected=""
+              value="EUR"
+            >
+              EUR / USD
+            </option>
+          </select>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                value="CHF"
+              >
+                CHF
+                 / USD
+              </option>,
+              <option
+                value="GBP"
+              >
+                GBP
+                 / USD
+              </option>,
+              <option
+                value="EUR"
+              >
+                EUR
+                 / USD
+              </option>,
+            ],
+            "defaultValue": "EUR",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <option
+                value="CHF"
+              >
+                CHF / USD
+              </option>,
+              "key": "CHF",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "CHF",
+                  " / USD",
+                ],
+                "value": "CHF",
+              },
+              "ref": null,
+              "rendered": Array [
+                Array [
+                  "CHF",
+                  " / USD",
+                ],
+              ],
+              "type": "option",
+            },
+            Object {
+              "instance": <option
+                value="GBP"
+              >
+                GBP / USD
+              </option>,
+              "key": "GBP",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "GBP",
+                  " / USD",
+                ],
+                "value": "GBP",
+              },
+              "ref": null,
+              "rendered": Array [
+                Array [
+                  "GBP",
+                  " / USD",
+                ],
+              ],
+              "type": "option",
+            },
+            Object {
+              "instance": <option
+                selected=""
+                value="EUR"
+              >
+                EUR / USD
+              </option>,
+              "key": "EUR",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "EUR",
+                  " / USD",
+                ],
+                "value": "EUR",
+              },
+              "ref": null,
+              "rendered": Array [
+                Array [
+                  "EUR",
+                  " / USD",
+                ],
+              ],
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "currencies": Object {
+          "CHF": "1.1",
+          "EUR": "1.3",
+          "GBP": "1.2",
+        },
+        "handleSelect": [MockFunction],
+        "selected": "EUR",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          style="line-height: 20px; margin: 10px;"
+        >
+          <label>
+            Select the currency you want to trade: 
+          </label>
+          <select>
+            <option
+              value="CHF"
+            >
+              CHF / USD
+            </option>
+            <option
+              value="GBP"
+            >
+              GBP / USD
+            </option>
+            <option
+              selected=""
+              value="EUR"
+            >
+              EUR / USD
+            </option>
+          </select>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Select the currency you want to trade: 
+            </label>,
+            <select
+              defaultValue="EUR"
+              onChange={[Function]}
+            >
+              <option
+                value="CHF"
+              >
+                CHF
+                 / USD
+              </option>
+              <option
+                value="GBP"
+              >
+                GBP
+                 / USD
+              </option>
+              <option
+                value="EUR"
+              >
+                EUR
+                 / USD
+              </option>
+            </select>,
+          ],
+          "style": Object {
+            "lineHeight": "20px",
+            "margin": "10px",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <label>
+              Select the currency you want to trade: 
+            </label>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select the currency you want to trade: ",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Select the currency you want to trade: ",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": <select>
+              <option
+                value="CHF"
+              >
+                CHF / USD
+              </option>
+              <option
+                value="GBP"
+              >
+                GBP / USD
+              </option>
+              <option
+                selected=""
+                value="EUR"
+              >
+                EUR / USD
+              </option>
+            </select>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="CHF"
+                >
+                  CHF
+                   / USD
+                </option>,
+                <option
+                  value="GBP"
+                >
+                  GBP
+                   / USD
+                </option>,
+                <option
+                  value="EUR"
+                >
+                  EUR
+                   / USD
+                </option>,
+              ],
+              "defaultValue": "EUR",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <option
+                  value="CHF"
+                >
+                  CHF / USD
+                </option>,
+                "key": "CHF",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "CHF",
+                    " / USD",
+                  ],
+                  "value": "CHF",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Array [
+                    "CHF",
+                    " / USD",
+                  ],
+                ],
+                "type": "option",
+              },
+              Object {
+                "instance": <option
+                  value="GBP"
+                >
+                  GBP / USD
+                </option>,
+                "key": "GBP",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "GBP",
+                    " / USD",
+                  ],
+                  "value": "GBP",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Array [
+                    "GBP",
+                    " / USD",
+                  ],
+                ],
+                "type": "option",
+              },
+              Object {
+                "instance": <option
+                  selected=""
+                  value="EUR"
+                >
+                  EUR / USD
+                </option>,
+                "key": "EUR",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "EUR",
+                    " / USD",
+                  ],
+                  "value": "EUR",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Array [
+                    "EUR",
+                    " / USD",
+                  ],
+                ],
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
