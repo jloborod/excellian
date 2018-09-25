@@ -8,7 +8,7 @@ const style: React.CSSProperties = {
     textAlign: 'center',
 }
 
-export const Header = (): JSX.Element => {
+export const Header: React.SFC = (): JSX.Element => {
     return (
         <div style={style}>
             Currency Exchange Test

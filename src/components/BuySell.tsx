@@ -62,7 +62,7 @@ interface BuySellProps {
     handleClick: (action: string) => void
 }
 
-export const BuySell = (props: BuySellProps): JSX.Element => {
+export const BuySell: React.SFC<BuySellProps> = (props): JSX.Element => {
     return (
         <a
             style={getStyles(props.type, props.selectedAction)}

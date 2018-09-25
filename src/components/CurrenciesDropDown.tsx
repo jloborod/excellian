@@ -21,7 +21,7 @@ const getListOfCurrencies = (currencies: Rate, selected: string): JSX.Element[] 
     })
 }
 
-export const CurrenciesDropDown = (props: CurrenciesDropDownProps): JSX.Element => {
+export const CurrenciesDropDown: React.SFC<CurrenciesDropDownProps> = (props): JSX.Element => {
     return (
         <div style={style}>
             <label>Select the currency you want to trade: </label>

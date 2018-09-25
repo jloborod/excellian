@@ -15,7 +15,7 @@ const style: React.CSSProperties = {
     width: '60%',
 }
 
-const displaySelectMessage = (props: MainContentProps): JSX.Element | null => {
+const displaySelectMessage: React.SFC<MainContentProps> = (props): JSX.Element | null => {
     if (!props.selectedAction){
         return (
             <div>Please click on Buy or Sell</div>

@@ -23,7 +23,7 @@ interface InputProps {
     onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
-export const Input = (props: InputProps): JSX.Element => (
+export const Input: React.SFC<InputProps> = (props): JSX.Element => (
     <input
         onKeyPress={isNumberKey}
         type={props.type}

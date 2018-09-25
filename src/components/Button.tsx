@@ -15,7 +15,7 @@ interface ButtonProps {
     clicked: () => void
 }
 
-export const Button = (props: ButtonProps): JSX.Element => (
+export const Button: React.SFC<ButtonProps> = (props): JSX.Element => (
     <button
         style={ style }
         disabled={props.disabled}

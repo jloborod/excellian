@@ -11,7 +11,7 @@ interface TradeFormProps {
     selectedAction: string;
 }
 
-export const TradeForm = (props: TradeFormProps): JSX.Element => {
+export const TradeForm: React.SFC<TradeFormProps> = (props): JSX.Element => {
     return (
         <div>
             <div style={{float: 'left', width: '35%', marginLeft: '5px'}}>
