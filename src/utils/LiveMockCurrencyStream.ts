@@ -23,7 +23,7 @@ const randomeCurrency = (): Currency => ({
 ** function that returns an stream obserbvable a random currency record every 0,5 s
 */
 export const livePrices = () => {
-    return interval(5000)
+    return interval(500)
                 .pipe(
                     map( () => {
                         const value = randomeCurrency();
