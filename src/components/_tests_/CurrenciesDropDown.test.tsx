@@ -1,16 +1,12 @@
 import * as React from 'react';
-import { configure, mount, ReactWrapper } from 'enzyme';
-import * as Adapter from 'enzyme-adapter-react-16';
+import { mount, ReactWrapper } from 'enzyme';
 import { CurrenciesDropDown } from '..';
 import { Currency } from '../../model';
-
-configure({adapter: new Adapter()});
-
 
 describe('<CurrenciesDropDown>', () => {
     let clickMock: () => void;
     let wrapper: ReactWrapper;
-    
+
     const mockCurrency: Currency = {
         base: 'USD',
         rates: {

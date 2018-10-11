@@ -1,16 +1,13 @@
 import * as React from 'react';
-import { configure, shallow, ShallowWrapper } from 'enzyme';
-import * as Adapter from 'enzyme-adapter-react-16';
+import { shallow, ShallowWrapper } from 'enzyme';
 import { Button } from '../';
-
-configure({adapter: new Adapter()});
 
 describe('<Button>', () => {
     let clickMock: () => void;
     let wrapper: ShallowWrapper;
-    
+
     beforeEach( () => {
-        clickMock = jest.fn();        
+        clickMock = jest.fn();
         wrapper = shallow(<Button disabled={true} clicked={clickMock}>My test button</Button>);
     });
 
@@ -23,5 +20,5 @@ describe('<Button>', () => {
     it('Should render the expected template', () => {
         wrapper.simulate('click');
         expect(clickMock).toHaveBeenCalledTimes(1);
-    })        
+    })
 })
